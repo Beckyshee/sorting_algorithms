@@ -44,4 +44,17 @@ void print_array(const int *array, size_t size);
 void swap(int *a, int *b);
 void heapify(int *array, int end, int start, size_t size);
 
+void merge_sorty(int *array, int low, int high, int *temp);
+void merge(int *array, int low, int middle, int high, int *temp);
+
+void stupify(int *array, int heap, int i, int size);
+
+void counting_sort_r(int *array, size_t size, int pos, int *out, int *ca);
+
+void swapint(int *l, int *r);
+void b_sort(int *array, int low, int count, int dir, size_t size);
+void b_merge(int *array, int low, int count, int dir, size_t size);
+
+int partition_hoare(int *a, int l, int h);
+
 #endif /* SORT_H */
