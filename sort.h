@@ -50,6 +50,7 @@ void merge(int *array, int low, int middle, int high, int *temp);
 void stupify(int *array, int heap, int i, int size);
 
 void counting_sort_r(int *array, size_t size, int pos, int *out, int *ca);
+int findmax(int *array, size_t size);
 
 void swapint(int *l, int *r);
 void b_sort(int *array, int low, int count, int dir, size_t size);
